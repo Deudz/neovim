@@ -1,0 +1,30 @@
+= NeoVIM CONFIGURATION
+
+This is my https://neovim.io[NeoVim] configuration.
+Any PRs and Help would be appreciated!
+
+== Stuff i would like to add soon
+
+* [ ] packer bootstrap
+* [x] lsp
+* [ ] icons in the auto-complete popup
+* [ ] dashboard
+
+== How to install
+CD into +
+*Linux:* $XDG_CONFIG_HOME +
+*Windows:* %LocalAppdata%
+
+and run:
+
+ $ git clone --depth 1 https://github.com/Deudz/neovim.git nvim
+
+and also:
+
+ $ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
+to install packer.nvim.
+
+While in NeoVim, you might see a warning about the Lua Language Server not present.
+Simply just run `:MasonInstall lua-language-server` to install it and you will be good to go!
