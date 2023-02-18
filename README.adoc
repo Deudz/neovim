@@ -11,9 +11,10 @@ Any PRs and Help would be appreciated!
 * [ ] dashboard
 
 == How to install
-CD into +
-*Linux:* $XDG_CONFIG_HOME +
-*Windows:* %LocalAppdata%
+CD into
+
+* *Linux:* $XDG_CONFIG_HOME or ~/.config +
+* *Windows:* %LocalAppdata%
 
 and run:
 
