@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
 
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp'
+    use 'hrsh7th/cmp-path'
     use 'hrsh7th/cmp-nvim-lsp'
     use 'hrsh7th/cmp-buffer'
     use 'hrsh7th/cmp-cmdline'
@@ -17,13 +18,15 @@ return require('packer').startup(function(use)
 
     use 'nvim-lualine/lualine.nvim'
 
+    use 'nvim-treesitter/nvim-treesitter'
+
     use {
-	'nvim-telescope/telescope.nvim',
-	requires = { 'nvim-lua/plenary.nvim' }
+    	'nvim-telescope/telescope.nvim',
+	    requires = { 'nvim-lua/plenary.nvim' }
     }
 
-    use 'hrsh7th/cmp-vsnip'
-    use 'hrsh7th/vim-vsnip'
+    use 'L3MON4D3/LuaSnip'
+    use 'saadparwaiz1/cmp_luasnip'
 
     use 'folke/which-key.nvim'
 
@@ -34,7 +37,7 @@ return require('packer').startup(function(use)
     use {
     	'nvim-tree/nvim-tree.lua',
     	requires = { 'nvim-tree/nvim-web-devicons' }
-    	}
+   	}
 
     use 'navarasu/onedark.nvim'
 end)

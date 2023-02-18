@@ -6,6 +6,7 @@ require('config/etc')
 require('config/onedark')
 require('config/lualine')
 
+require('config/treesitter')
 require('config/telescope')
 require('config/nvim-tree')
 
