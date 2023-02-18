@@ -20,10 +20,14 @@ and run:
 
  $ git clone --depth 1 https://github.com/Deudz/neovim.git nvim
 
-and also:
+and also (linux):
 
  $ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+ 
+(windows):
+
+ $ git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 
 to install packer.nvim.
 
